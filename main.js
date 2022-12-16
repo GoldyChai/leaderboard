@@ -112,7 +112,7 @@ await members.get(week[0].userid).roles.add(newWeeklyRole)
 await members.get(day[0].userid).roles.add(newDailyRole)
 await members.get(month[0].userid).roles.add(newMonthlyRole)
 let monthname = 'December'
-let weekname = 'First Week of December'
+let weekname = 'Second Week of December'
 
 let dailyembed = {
     color: '#58bee0',
